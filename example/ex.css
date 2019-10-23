@@ -1,0 +1,12 @@
+.box {
+  overflow: hidden;
+  height: 30px;
+  width: 100%;
+  transition: all .5s;
+}
+.open {
+  height: 100px;
+}
+#link {
+  float: right;
+}

@@ -1,0 +1,99 @@
+
+
+.container_form {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: K2D,Roboto, Arial, Verdana, sans-serif;
+  text-align: center;
+  margin: 3%;
+}
+
+.form {
+  display: inline-block;
+  background: #6ead93;
+  padding: 1.5rem;
+  border: 3px solid rgb(136, 114, 107);
+  position: relative;
+  width: 450px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.form svg {
+  margin: auto auto;
+  display: block;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 1.2rem 0 0 0;
+}
+
+legend {
+  margin: 0;
+  padding: 0;
+  color: brown;
+}
+
+fieldset > div {
+  border-radius: 25px;
+  position: relative;
+  margin-top: 0.5rem;
+  background: white;
+}
+
+fieldset#submit-field > div {
+  background: rgb(66, 158, 66);
+}
+
+fieldset .placeholder {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  z-index: 5;
+  font-size: 1.1rem;
+  transition: all 0.25s;
+  color: #666;
+  pointer-events: none;
+}
+
+fieldset .placeholder.active {
+  font-size: 0.6rem;
+  color: #999;
+  margin-top: -0.8rem;
+}
+
+fieldset input {
+  display: block;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: transparent;
+  border: 0;
+  padding: 1rem;
+  font-size: 1.1rem;
+  position: relative;
+  z-index: 3;
+  outline-color: rgb(255, 255, 255);
+}
+
+fieldset.with-placeholder input {
+  padding: 1.3rem 1rem 0.7rem 1rem;
+}
+
+fieldset input[type=submit] {
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font-family: Roboto, K2D, Arial, Verdana, Sans-serif;
+}
+fieldset input[type=submit]:hover {
+  border-radius: 24px;
+  border: 0;
+  background: rgb(248, 165, 10);
+  color: #ffffff;
+}
